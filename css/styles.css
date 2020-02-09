@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Courgette|Felipa');
+@charset "UTF-8";
+/* CSS Document */
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*---------------------------------------------body----------------------------------------*/
+
+
+body {
+    font-size: 16px;
+    width: 100%;
+     background-image: url(../images/pizza-background.jpg);
+
+
+}
+
+
+
+/*-----------------------------------------------header-----------------------------------*/
+
+
+header {
+	padding: 5rem;
+	width: 100%;
+	max-width: 100%;
+    background-color: $primaryColor;
+    color: $fontColor;
+    background-image: url(../images/background-pizza-11.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    } 
+    
+
+
+    
+    
+    h1 {
+        padding-top: 5rem;
+        padding-left: 2%;
+        font-size: 2.5rem;
+        text-align: left;
+        color: black;
+        color: #9a230c;
+        text-shadow: 2px 4px 4px #bb7249;
+        font-family: 'Courgette', cursive;
+    }
+    
+    
+    h2 {
+        font-size: 1rem;
+         padding-left: 2%;
+        text-align: left;
+        color: #9a230c;
+        font-family: 'Courgette', cursive;
+    } 
+    
+    h3 {
+        font-size: 2.5rem;
+        text-align: center;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        font-family: 'Courgette', cursive;
+        color: #c04e19;
+        font-weight: 900;
+        text-shadow: 4px 1px 1px #583110;
+        
+    } 
+    
+
+    
+    
+    div.name {
+	font-size: 2.5rem;
+	color: brown;
+}
+
+
+.content {
+   max-width: 500px;
+    margin: 3rem auto;
+    background-color: white;
+    border-radius: .5rem;
+    padding: 1.5rem;
+    box-shadow: 2px 2px 6px black;
+
+}
+    #pizzatime {
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    #total {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    h2.add2 {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    h2.add3 {
+        margin-top: 25px;
+    }
+
+    button {
+        text-align: center;
+        background-color: #de882f;
+        border: none;
+        padding-top: 15px;
+       padding-bottom: 15px;
+       padding-left: 35px;
+       padding-right: 35px;
+        border-radius: .5rem;
+        margin-left: 3rem;
+        margin-top: .9rem;
+
+    }
+
+    button:hover {
+        background-color: #bf4d19;
+        transition-duration: .2s;
+        transition-delay: .1s;
+    }
+   
+/*-----------------------------------------------footer-----------------------------------*/
+
+
+    footer a {
+        color: #eadcb5;
+        text-decoration: none;
+        transition-duration: .5s;
+        transition-delay: .2s;
+    }
+
+    footer a:hover {
+        color: #c04e19;
+        transition-duration: .3s;
+        transition-delay: .1s;
+    }
+
+
+footer {
+    width: 100%;
+    background-color: #583110;
+    padding: 2rem 0;
+    margin-bottom: .5rem;
+
+    }
+    
+    footer p {
+        text-align: center;
+        color: #d7c18d;
+        padding: .75rem 0;
+        font-size: 1.3rem;
+        text-decoration: none;
+    }
+    
+
+    
+
+
+
+
+
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+ 

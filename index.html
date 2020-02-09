@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+<meta charset="utf-8">
+<title>Pizza Emporium</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Felipa" rel="stylesheet"> 
+    
+</head>
+<body>
+<div id="wrapper">
+<!-- PAGE HEADER GOES HERE -->
+    <header>
+        <h1>Pizza Emporium</h1>
+        <h2>Make your own pizza!</h2>
+    </header>
+    
+
+
+
+
+
+
+    <main class="clearfix">
+
+
+<div class="content">
+    <h3>ADD YOUR PIZZA!</h3>
+        <h2 class="add2">Click the item to add, then click the "Add Button"</h2>
+<button onclick="pizzaTopping.topping1=' with Sausage'">Sausage</button>
+
+
+<button onclick="pizzaTopping.topping2=' with Pepperoni'">Pepporoni</button>
+
+<br>
+<button onclick="pizzaTopping.pizzaSmall='Large Pizza'">Large Pizza</button>
+
+<button onclick="pizzaTopping.pizzaSmall='Small Pizza'">Small Pizza</button>
+<br>
+
+<button onclick="pizzaTopping.crust1=' on small crust'">Small Crust</button>
+
+<button onclick="pizzaTopping.crust1=' on large crust'">Large Crust</button>
+<br>
+<button onclick="pizzaTopping.toppingAdd()">Add</button>
+        <div id="pizzatime"></div>
+<h2 class="add3">Click Shopping List to find out what is needed</h2>
+<button onclick="pizzaTotal()">Shopping List</button>
+<div id="total"> </div>
+
+
+
+<button onclick="location.reload()">Reset Pizza</div>
+ 
+       
+
+     </div> <!---end of content div ------>
+      
+        
+        
+        
+        
+        
+    </main>
+    
+<!-- PAGE FOOTER GOES HERE -->
+    <footer class="footerman">
+    <p>&copy;Grant Shoop 2019 &bull; <a href="mailto:grantshoop@gmail.com">grantshoop@gmail.com</a></p>
+    </footer>
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
